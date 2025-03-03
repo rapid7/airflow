@@ -1,0 +1,17 @@
+---
+info:
+  title: airflow
+  description: Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/airflow
+  x-cortex-tag: airflow
+  x-cortex-type: service
+  x-cortex-domain-parents:
+    - tag: data-platform-transport
+  x-cortex-groups:
+    - exposure:opensource
+openapi: 3.0.0
+servers:
+  - url: "/"
